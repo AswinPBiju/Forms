@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+</head>
+<body style="background-image:linear-gradient(skyblue,gray)">
+<form>
+<center>
+<link rel="stylesheet" href="Register.css">
+<h1><b>Register</b></h1>
+<br>
+<tr>
+<td>
+<td>Name &nbsp&nbsp&nbsp&nbsp&nbsp :</td>
+<input type    ="text" id="user"name="Name"placeholder="Enter Name" required>
+</td>
+</tr>
+<br>
+<br>
+<tr>
+<td>
+<td>Username :</td>
+<td>
+<input type ="text" id ="user"name="user"placeholder="Enter the username" minlength="7" required>
+</td>
+</tr>
+<br>
+<br>
+<tr>
+<td>
+<td>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :</td>
+<td>
+<input type ="email" id="mail" name="mail"placeholder="Email">
+</td>
+</tr>
+<br>
+<br>
+<tr>
+<td>
+<td>Password &nbsp&nbsp:</td>
+<td>
+<input type ="password" id="pwd"name="pwd"placeholder="Enter the password" minlength="7" required>
+</td>
+</tr>
+<br>
+<br>
+<tr>
+<td>
+<td>Phone &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :</td>
+<td>
+<input type ="number" id ="num"phone placeholder="81********" maxlength="10">
+</td>
+</tr>
+<br>
+<br>
+<td>Gender:</td>
+<input type="radio"name="gen"value="male">Male
+<input type ="radio"name="gen"name="gen"value="female">Female
+<input type ="radio"name="gen"value="others">Others
+<br><br>
+<td>Subscription:</td>
+<td>
+<select id="subscription" name="subscription">
+<option value="silver">Silver</option>
+<option value="gold">Gold</option>
+<option value="platinum">Platinum</option>
+</select>
+<br>
+<br>
+<center>
+<th>    
+<button type="button" onclick="alert('Account successfully created')">Submit</button>
+</th>
+<br>
+<br>
+<td>
+Already have a account<a href="Log in.html">Login here</a>
+</td>
+</center>
+</form>
+</body>
+</html>
